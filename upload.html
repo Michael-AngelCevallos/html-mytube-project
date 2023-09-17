@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Upload Videos</title>
 </head>
 <body>
 
@@ -19,6 +19,47 @@
       <a></a>
     </nav>
   </div>
+
+  <h1>Add New Video</h1>
+
+  <label for="vid-title">Video Title</label><br>
+  <input type="text" id="vid-title" name="vid-title" placeholder="Enter Text">
+  <br><br>
+
+  <label for="description">Description</label><br>
+  <textarea id="description" name="description" value="description" rows="6"cols="17" value="" placeholder="Enter description "></textarea>
+  <br><br>
+
+  <label for="">Video</label><br>
+  <input type="file" placeholder="Choose File">
+  <br><br>
+
+
+  <label for="collection-list">Add to: </label><br>
+  <select>
+    <option value="collections1">Collection 1</option>
+    <option value="collections2">Collection 2</option>
+    <option value="collections3">Collection 3</option>
+  </select>
+
+  <br><br>
+
+  <label for="privacy">Privacy</label><br>
+  <input type="radio" id="public" name="privacy" value="public"> Public
+  <input type="radio"id="private" name="privacy" value="private"> Private
+
+  <br><br>
+
+  <label for="submit"></label>
+  <input type="submit" id="submit" name="submit" value="Upload Video">
+
+  <br><br><br><br>
+  <hr>
+  <footer>&copy: Copyright</footer>
+
+
+
+
   
 </body>
 </html>
